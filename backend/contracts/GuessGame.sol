@@ -36,7 +36,7 @@ contract GuessGame is SepoliaConfig {
     /// @notice Start a new game with specified range
     /// @param minRange Minimum value of the range (plaintext)
     /// @param maxRange Maximum value of the range (plaintext)
-    /// @dev Generates an encrypted random number within the range
+    /// @dev Generates an encrypted random number within the range using FHEVM
     function startGame(uint256 minRange, uint256 maxRange) external {
         require(minRange < maxRange, "Invalid range");
         require(maxRange <= type(uint32).max, "Range too large");

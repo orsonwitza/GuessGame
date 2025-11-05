@@ -32,7 +32,7 @@ const SEPOLIA_RPC_URL: string = getVar("SEPOLIA_RPC_URL", "");
 const config: HardhatUserConfig = {
   defaultNetwork: "hardhat",
   namedAccounts: {
-    deployer: 0,
+    deployer: 0, // Default deployer account index
   },
   etherscan: {
     apiKey: {
