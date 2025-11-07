@@ -50,7 +50,7 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
     maxPriorityFeePerGas,
   });
 
-  console.log(`GuessGame contract: `, deployedGuessGame.address);
+  console.log(`GuessGame contract deployed at: `, deployedGuessGame.address);
 };
 export default func;
 func.id = "deploy_guessGame"; // id required to prevent reexecution
