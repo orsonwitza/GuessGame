@@ -47,6 +47,7 @@ export const GuessGameDemo = () => {
   const [maxRange, setMaxRange] = useState<number>(10);
   const [guess, setGuess] = useState<string>("");
 
+  // Button styling classes
   const buttonClass =
     "inline-flex items-center justify-center rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white shadow-sm " +
     "transition-colors duration-200 hover:bg-blue-700 active:bg-blue-800 " +
