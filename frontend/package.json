@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@zama-fhe/relayer-sdk": "0.2.0",
+    "@zama-fhe/relayer-sdk": "0.2.0", // Relayer SDK for FHEVM
     "ethers": "^6.15.0",
     "next": "^15.4.2",
     "react": "^19.1.0",

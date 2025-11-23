@@ -9,7 +9,7 @@
   "license": "MIT",
   "dependencies": {
     "encrypted-types": "^0.0.4",
-    "@fhevm/solidity": "^0.8.0",
+    "@fhevm/solidity": "^0.8.0", // FHEVM Solidity library
     "@zama-fhe/oracle-solidity": "^0.1.0"
   },
   "devDependencies": {
